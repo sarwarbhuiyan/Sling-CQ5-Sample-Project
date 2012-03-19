@@ -1,4 +1,1 @@
-A project structure and maven build for a sample CQ5 project using Sling's project structure.  This is based on the the 
-project structure for an OSGi bundle with an additional set of resources in src/main/resources which are installed as
-nodes in the JCR repository when the bundle is installed.  The nodes are represented as JSON files here but they could
-equally be represented as XML.
+A project structure and maven build for a sample CQ5 project using Sling's project structure.  This is based on the the project structure for an OSGi bundle with an additional set of resources in src/main/resources which are installed as nodes in the JCR repository when the bundle is installed.  The nodes are represented as JSON files here but they could equally be represented as XML.
