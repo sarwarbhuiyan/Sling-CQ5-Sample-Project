@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: com.technomaven.sling.samples
+Built-By: sarwar
+Bundle-Category: sling
+Tool: Bnd-0.0.357
+Bundle-Name: Technomaven Sample Sling App
+Created-By: Apache Maven Bundle Plugin
+Sling-Initial-Content: SLING-CONTENT/apps/technomaven;overwrite:=true;
+ uninstall:=true;path:=/apps/technomaven,                        SLING
+ -CONTENT/content/technomaven;overwrite:=true;uninstall:=true;path:=/c
+ ontent/technomaven,			SLING-CONTENT/etc/designs/my-sling-app.json;ove
+ rwrite:=true;uninstall:=true;path:=/etc/designs/,			SLING-CONTENT/etc
+ /designs/my-sling-app/;overwrite:=true;uninstall:=true;path:=/etc/des
+ igns/my-sling-app
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.6.0_29
+Bundle-Version: 0.0.1.SNAPSHOT
+Bnd-LastModified: 1329429857202
+Bundle-ManifestVersion: 2
+Bundle-Description: The parent project for Apache Sling
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: com.technomaven.sling.samples
+Bundle-SymbolicName: sample-sling-app
+Bundle-DocURL: http://sling.apache.org
+
